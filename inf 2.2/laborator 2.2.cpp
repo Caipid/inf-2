@@ -4,9 +4,9 @@ using namespace std;
 int main() {
 	setlocale(LC_ALL, "ru");
 	int student, apple;
-	cout << "\n Ââåäèòå êîëè÷åñòâî ñòóäåíòîâ:";
+	cout << "\n Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÑ‚ÑƒÐ´ÐµÐ½Ñ‚Ð¾Ð²:";
 	cin >> student;
-	cout << "\n Ââåäèòå êîëè÷åñòâî ÿáëîê:";
+	cout << "\n Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÐ±Ð»Ð¾Ðº:";
 	cin >> apple;
-	cout << "Oñòàëîñü ÿáëîê:" << apple % student;
+	cout << "ÐžÑÑ‚Ð°Ð»Ð¾ÑÑŒ ÑÐ±Ð»Ð¾Ðº:" << apple % student;
 }
